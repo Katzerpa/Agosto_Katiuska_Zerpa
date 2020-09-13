@@ -26,34 +26,40 @@ public class Libro {
     //Metodos
 
     public int getIsbn(){
+
         return this.isbn ;
     }
 
-    public void setIsbn(int isbn) {
-        this.isbn = isbn;
+    public void setIsbn(int unIsbn) {
+        this.isbn = unIsbn;
     }
     public String getTitulo(){
+
         return this.titulo;
     }
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
+    public void setTitulo(String unTitulo) {
+
+        this.titulo = unTitulo;
     }
 
     public String getAutor() {
+
         return autor;
     }
 
-    public void setAutor(String autor) {
-        this.autor = autor;
+    public void setAutor(String unAutor) {
+        this.autor = unAutor;
     }
 
     public int getNumeroPagina() {
+
         return numeroPagina;
     }
 
-    public void setNumeroPagina(int numeroPagina) {
-        this.numeroPagina = numeroPagina;
+    public void setNumeroPagina(int unNumeroPagina) {
+
+        this.numeroPagina = unNumeroPagina;
     }
 
     public boolean elAutorEstaEnNull(){
