@@ -10,20 +10,22 @@ public class SemiRemolque extends Vehiculo {
         this.cantidadEjes =1 ;
     }
 
-    public SemiRemolque(String color , int rueda, int cantidadEjes) {
-        super(color , rueda);
-        this.color = color;
-        this.rueda = rueda;
-        this.cantidadEjes = cantidadEjes;
+    public SemiRemolque(String unColor , int unaRueda, int esCantidadEjes) {
+        super(unColor , unaRueda);
+        this.color = unColor;
+        this.rueda = unaRueda;
+        this.cantidadEjes = esCantidadEjes;
     }
     //Metodos
 
     public int getCantidadEjes() {
+
         return cantidadEjes;
     }
 
-    public void setCantidadEjes(int cantidadEjes) {
-        this.cantidadEjes = cantidadEjes;
+    public void setCantidadEjes(int esCantidadEjes) {
+
+        this.cantidadEjes = esCantidadEjes;
     }
 
     @Override

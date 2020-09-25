@@ -6,15 +6,15 @@ public class Auto extends Vehiculo{
     private  String cilindrada;
     //Contructores
 
-    public Auto(int velocidadMaxima , String cilindrada) {
-        this.velocidadMaxima = velocidadMaxima;
-        this.cilindrada = cilindrada;
+    public Auto(int unaVelocidadMaxima , String unaCilindrada) {
+        this.velocidadMaxima = unaVelocidadMaxima;
+        this.cilindrada = unaCilindrada;
     }
 
-    public Auto(String color , int rueda , int velocidadMaxima , String cilindrada) {
-        super(color , rueda);
-        this.velocidadMaxima = velocidadMaxima;
-        this.cilindrada = cilindrada;
+    public Auto(String unColor , int unaRueda , int unaVelocidadMaxima , String unaCilindrada) {
+        super(unColor , unaRueda);
+        this.velocidadMaxima = unaVelocidadMaxima;
+        this.cilindrada = unaCilindrada;
     }
 
     //Metodos

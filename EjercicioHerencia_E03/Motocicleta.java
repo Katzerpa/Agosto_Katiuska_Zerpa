@@ -6,15 +6,15 @@ public class Motocicleta extends Vehiculo{
     private  String cilindrada;
     //Contructor
 
-    public Motocicleta(int velocidad , String cilindrada) {
-        this.velocidad = velocidad;
-        this.cilindrada = cilindrada;
+    public Motocicleta(int unaVelocidad , String unaCilindrada) {
+        this.velocidad = unaVelocidad;
+        this.cilindrada = unaCilindrada;
     }
 
-    public Motocicleta(String color , int rueda , int velocidad , String cilindrada) {
-        super(color , rueda);
-        this.velocidad = velocidad;
-        this.cilindrada = cilindrada;
+    public Motocicleta(String unColor , int unaRueda , int unaVelocidad , String unaCilindrada) {
+        super(unColor , unaRueda);
+        this.velocidad = unaVelocidad;
+        this.cilindrada = unaCilindrada;
     }
     //Metodo
 

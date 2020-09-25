@@ -11,9 +11,9 @@ public class Vehiculo {
         this.rueda = 2;
     }
 
-    public Vehiculo(String color , int rueda) {
-        this.color = color;
-        this.rueda = rueda;
+    public Vehiculo(String unColor , int unaRueda) {
+        this.color = unColor;
+        this.rueda = unaRueda;
     }
     //Metodos
 
