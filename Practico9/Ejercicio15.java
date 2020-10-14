@@ -43,9 +43,6 @@ public class Ejercicio15 {
         System.out.println("Los texto de los botones son:");
         List<WebElement> listButton = driver.findElements(By.tagName("button"));
         for(WebElement btn : listButton){
-            if(!!listButton.isEmpty()){
-                continue;
-            }
             System.out.println("---" + btn.getText());
         }
         System.out.println("La cantidad de botones es : " + listButton.size());
