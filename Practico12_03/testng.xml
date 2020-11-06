@@ -1,0 +1,19 @@
+<suite name="Testng - SalesForce">
+    <test name="Ejecucion de pruebas">
+        <parameter name="specificTag" value="h2"/>
+        <groups>
+        <run>
+            <include name = "successTests"/>
+            <include name = "failTests"/>
+        </run>
+        </groups>
+        <classes>
+            <class name="Test_Practico_12.Test_testngSpotify"/>
+            <class name="Test_Practico_12.Test_testngSalesforce"/>
+            <class name="Test_Practico_12.Test_spotifyTestWithParameters"/>
+        </classes>
+
+
+    </test>
+
+</suite>
